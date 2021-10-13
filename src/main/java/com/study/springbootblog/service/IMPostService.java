@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-10-12
  */
 public interface IMPostService extends IService<MPost> {
-
+    void initIndexWeekRank();
 }
