@@ -2,6 +2,8 @@ package com.study.springbootblog.entity;
 
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.Date;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -17,7 +19,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class MPost implements Serializable {
+public class MPost extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
@@ -81,12 +83,12 @@ public class MPost implements Serializable {
     /**
      * 创建日期
      */
-    private LocalDateTime created;
+    private Date created;
 
     /**
      * 最后更新日期
      */
-    private LocalDateTime modified;
+    private Date modified;
 
 
 }

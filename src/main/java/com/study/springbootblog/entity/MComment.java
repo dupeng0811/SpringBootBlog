@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class MComment implements Serializable {
+public class MComment extends BaseEntity  {
 
     private static final long serialVersionUID = 1L;
 

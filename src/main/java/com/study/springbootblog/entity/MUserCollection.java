@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class MUserCollection implements Serializable {
+public class MUserCollection extends BaseEntity  {
 
     private static final long serialVersionUID = 1L;
 
