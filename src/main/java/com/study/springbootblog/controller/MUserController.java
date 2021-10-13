@@ -14,7 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-10-12
  */
 @RestController
-@RequestMapping("/users/m-user")
-public class MUserController {
+@RequestMapping("/users")
+public class MUserController extends BaseController{
 
+    @RequestMapping("/index")
+    public String Index(){
+        return "Index";
+    }
 }

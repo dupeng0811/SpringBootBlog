@@ -5,5 +5,9 @@ spring:
     url: jdbc:mysql://192.168.1.64:3306/springbootblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: Alv1cs@2Ol8
+  redis:
+    host: 192.168.1.103
+    port: 6379
+    password: 3R3b9p6ZaqJr3LDZOXBR
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml

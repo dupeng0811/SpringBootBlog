@@ -12,5 +12,4 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2021-10-12
  */
 public interface MCategoryMapper extends BaseMapper<MCategory> {
-
 }
